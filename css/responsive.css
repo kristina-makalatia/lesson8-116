@@ -12,8 +12,11 @@
 }
 @media (max-width: 950px) {
     .flex-wraper {
-      flex-wrap: wrap;
-      justify-content: center;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
     }
     .flex-wraper p {
         margin-top: 50px;

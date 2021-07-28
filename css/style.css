@@ -1,12 +1,18 @@
 /* header styles */
 .navigation-wraper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     background-color: lightslategray;
     padding: 20px;
 }
 
 .navigation ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .navigation ul li {
@@ -20,9 +26,14 @@
 
 /* section#1 */
 .flex-wraper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    background-color: lightblue;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 9%, rgba(23,227,104,1) 96%);
     height: 300px;
 }
 .flex-wraper p {
@@ -48,9 +59,14 @@
 
 /* images example */
 .image-wraper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 .block {
     width: 300px;

@@ -1,43 +1,43 @@
-/* example 1 */
-/* @media (max-width: 950px) {
-    .left-block,
-    .right-block {
-        width: 200px;
-        background-color: yellow;
+/* 
+@media (max-width: 1210px) {
+    .image-wraper {
+        flex-direction: column;
+    }
+} */
+
+@media (max-width: 1024px) {
+    .block {
+        width: 47%;
     }
 }
-
-@media (max-width: 480px) {
-    .right-block {
+@media (max-width: 950px) {
+    .flex-wraper {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .flex-wraper p {
+        margin-top: 50px;
+    }
+    .text-p, 
+    .image-block {
+        display: block;
+    }
+}
+@media (max-width: 768px) {
+    .burger-bar {
+        display: block;
+    }
+    .navigation {
         display: none;
     }
 }
-
-@media (max-width: 400px) {
-    .right-block {
-        display: block;
-        background-color: maroon;
-    }
-} */
-
-
-/* example2 - direction */
-/* @media (max-width:950px) {
+@media (max-width: 670px) {
     .flex-wraper {
-        flex-direction: column;
-        align-items: center;
+        height: auto;
     }
-    .center-block {
-        margin: 30px 0;
+}
+@media (max-width: 480px) {
+    .block {
+        width: 100%;
     }
-} */
-
-/* example 3 - wrap */
-@media (max-width: 600px) {
-   .center-block {
-       margin: 50px 0;
-   }
-   .flex-wraper {
-       justify-content: center;
-   }
 }
